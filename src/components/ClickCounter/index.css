@@ -1,1 +1,33 @@
 /* Write your CSS here */
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.heading {
+  font-family: 40px;
+  margin: 20px;
+  color: #2d3a35;
+}
+
+.spanEl {
+  color: #ce0a73;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding: 10px;
+  border: 0px none;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
